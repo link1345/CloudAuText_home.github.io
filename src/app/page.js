@@ -5,7 +5,7 @@ export default function Home() {
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="">
         <a
-          href=""
+          href="https://apps.microsoft.com/detail/9n6n4qvnkkbm"
           className="group rounded-lg"
           rel="noopener noreferrer"
         >

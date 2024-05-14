@@ -44,9 +44,9 @@ export default function Home() {
 
                 <h2 id="install">インストール</h2>
 
-                <a href="" className="bg-gray-200 dark:bg-zinc-900 p-4 rounded-lg">
+                <a href="https://apps.microsoft.com/detail/9n6n4qvnkkbm" className="bg-gray-200 dark:bg-zinc-900 p-4 rounded-lg">
                     <img src="/ms.svg" className="max-w-48 mx-auto" />
-                    <p>**************** ここにURL *****************</p>
+                    <p>https://apps.microsoft.com/detail/9n6n4qvnkkbm</p>
                 </a>
                 <p>上記のリンクからMicrosoftStoreに行き、インストールしてください。</p>
                 <p>もしくは、MicrosoftStore上で、「CloudAutext」と検索して、アプリをインストールしてください。</p>
@@ -66,28 +66,28 @@ export default function Home() {
                 <h3>文字起こし・翻訳に必要なAzureのトークンなどの取得方法</h3>
                 <p><b>※ ここでは既にAzureアカウントを作成済みで話をします。</b></p>
 
-                <img src="/azure/azure1.jpg" className="max-w-96"/>
+                <img src="/azure/azure1.jpg" className="lg:max-w-96 max-w-full"/>
                 <p>まず、<a href="https://portal.azure.com">https://portal.azure.com</a>にアクセスします。すると、上記の画像のようなページに飛びますので、そこで「Azure AI services」をクリックしてください。</p>
                 <p>※ もし、「Azure AI services」が見つからなければ、上の検索欄で検索すると出てきます。</p>
 
-                <img src="/azure/azure2.jpg" className="max-w-96"/>
+                <img src="/azure/azure2.jpg" className="lg:max-w-96 max-w-full"/>
                 <p>次にAzure AI servicesでできるサービス一覧が出てきますので、「音声サービス」を探し出してクリックします。</p>
 
-                <img src="/azure/azure3.jpg" className="max-w-96"/>
+                <img src="/azure/azure3.jpg" className="lg:max-w-96 max-w-full"/>
                 <p>初期は、上記の画像のように音声サービスが登録されていないと思いますので、上の方の「＋作成」ボタンをクリック</p>
 
-                <img src="/azure/azure4.jpg" className="max-w-96"/>
+                <img src="/azure/azure4.jpg" className="lg:max-w-96 max-w-full"/>
                 <p>リージョンはアプリを使いたいパソコンがある国・地域を選択します。価格レベルは、「Freeレベル(F0)」かその他のものが選択できると思いますが、無料枠を使いたければ、「Free(F0)」を選択してください。</p>
                 <p>設定が終わりましたら、下の方にある「作成」ボタンを押してください。</p>
 
-                <img src="/azure/azure5.png" className="max-w-96"/>
+                <img src="/azure/azure5.png" className="lg:max-w-96 max-w-full"/>
                 <p>音声サービスの作成が終わったら、画像のように追加したサービスが見えると思います。</p>
                 <p>そのサービス名をクリックしてください。</p>
 
-                <img src="/azure/azure6.jpg" className="max-w-96"/>
+                <img src="/azure/azure6.jpg" className="lg:max-w-96 max-w-full"/>
                 <p>上記の画像のように、サービス情報が表示されますが、その中の「キーを管理するためにはここをクリック」をクリックしてください。</p>
                 
-                <img src="/azure/azure7.jpg" className="max-w-96"/>
+                <img src="/azure/azure7.jpg" className="lg:max-w-96 max-w-full"/>
                 <p>キー1もしくはキー2の値をコピーしてください。これはCloudAuText上での「Azure Token」にあたります。CloudAuTextの設定の「Azure Token」にペーストしてください。</p>
                 <p>次に場所/地域の値をコピーしてください。これはCloudAuText上での「Azure Region」にあたります。CloudAuTextの設定の「Azure Region」にペーストしてください。</p>
 
